@@ -1,0 +1,46 @@
+{
+  "name": "dsh-plugin-github-radar",
+  "version": "0.1.0",
+  "description": "GitHub 雷达：在 DSH 里浏览趋势仓库，收藏、标星、一键浅克隆，README 可机翻成中文。",
+  "license": "MIT",
+  "author": "Yee",
+  "type": "module",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "github",
+    "trending",
+    "discovery"
+  ],
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "docs-panel.png"
+  ],
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.1-rc.5"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  }
+}

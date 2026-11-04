@@ -1,0 +1,5 @@
+# GitHub 雷达：趋势仓库看板 + 一键浅克隆（客户端面板 + 宿主 /github-radar/api 路由）
+# 作为 dsh.bundle 的 patch 层，安装后由 launcher 自动应用。
+- insert:
+    - id: github-radar
+      name: "dsh-plugin-github-radar"
