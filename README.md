@@ -78,7 +78,7 @@ token 存在 `~/Data/github-radar/auth.json`，写入后 chmod 600。克隆时�
 插件按 DSH 的组合包（bundle）格式发布，一条命令：
 
 ```bash
-dsh plugin --profile desktop add dsh-plugin-github-radar   # 发布到 npm 之后
+dsh plugin --profile desktop add dsh-plugin-github-radar   # npm 发布之后
 dsh plugin --profile desktop add file:/绝对路径/github-radar-plugin  # 本地目录
 ```
 
@@ -104,8 +104,8 @@ npm publish --access public
 提交方式：给那个仓库提 PR，只加一个文件 `data/plugins/<owner>__<repo>.yml`：
 
 ```yaml
-url: https://github.com/you/github-radar
-name: you/github-radar
+url: https://github.com/1578361862-art/dsh-plugin-github-radar
+name: 1578361862-art/dsh-plugin-github-radar
 category: ui
 description:
   en: GitHub trending board with one-click clone and README translation.
@@ -131,8 +131,8 @@ description:
       "name": "dsh-plugin-github-radar",
       "title": { "en": "GitHub Radar", "zh": "GitHub 雷达" },
       "author": "you",
-      "homepage": "https://github.com/you/github-radar",
-      "repository": { "url": "https://github.com/you/github-radar" },
+      "homepage": "https://github.com/1578361862-art/dsh-plugin-github-radar",
+      "repository": { "url": "https://github.com/1578361862-art/dsh-plugin-github-radar" },
       "metadata": { "keywords": ["github", "trending"] },
       "versions": [
         {

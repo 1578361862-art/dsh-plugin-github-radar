@@ -42,5 +42,13 @@
       "inject": [],
       "platform": "web"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1578361862-art/dsh-plugin-github-radar.git"
+  },
+  "homepage": "https://github.com/1578361862-art/dsh-plugin-github-radar#readme",
+  "bugs": {
+    "url": "https://github.com/1578361862-art/dsh-plugin-github-radar/issues"
   }
 }
