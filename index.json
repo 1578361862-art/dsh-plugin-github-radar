@@ -45,12 +45,12 @@
       },
       "versions": [
         {
-          "version": "0.2.0",
-          "publishTimestamp": 1793885506,
+          "version": "0.2.1",
+          "publishTimestamp": 1793889703,
           "source": {
             "type": "git",
             "url": "https://github.com/1578361862-art/dsh-plugin-github-radar",
-            "commit": "2caaaa9493f03f32262b7deea8b841a7d44c0262"
+            "commit": "500d6f301db97425f5b53f18c0dc679fe86afec9"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.5"
