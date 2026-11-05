@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "title": {
+    "en": "GitHub Radar",
+    "zh": "GitHub 雷达"
+  },
+  "description": {
+    "en": "A DSH panel for GitHub trending: favorites, starring, one-click shallow clone, README translation.",
+    "zh": "DSH 面板：GitHub 趋势榜单，收藏、标星、一键浅克隆，README 可机翻成中文。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": {
+        "title": {
+          "en": "UI Enhancements",
+          "zh": "UI 增强"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-github-radar",
+      "title": {
+        "en": "GitHub Radar",
+        "zh": "GitHub 雷达"
+      },
+      "description": {
+        "en": "GitHub trending board with favorites, starring, one-click shallow clone and README translation.",
+        "zh": "GitHub 趋势看板，支持收藏、标星、一键浅克隆与 README 机翻。"
+      },
+      "author": "Yee",
+      "homepage": "https://github.com/1578361862-art/dsh-plugin-github-radar",
+      "repository": {
+        "url": "https://github.com/1578361862-art/dsh-plugin-github-radar"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "github",
+          "trending",
+          "discovery",
+          "clone"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793884394,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/1578361862-art/dsh-plugin-github-radar",
+            "commit": "0e262c46748ed6142946bb58ddc3877a67557658"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5"
+          }
+        }
+      ]
+    }
+  ]
+}
