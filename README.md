@@ -10,6 +10,8 @@
 
 装好后左栏多一个「GitHub 雷达」入口，点开就是趋势榜。它不是独立网页，是 DSH 自己的面板，亮色 / 暗色主题跟着 DSH 走。
 
+2026-11-06 统一视觉后：日版暖纸 + 红铜，夜版满铺 DSH `bg-base`（`#151517`）+ 珊瑚；刊头改衬线。规范见 `~/Work/dsh/default-workspace/plugin-design-system/README.md`，最新真机截图见 `plugin-design-system/shots/live-radar-*.png`。
+
 ## 安装
 
 ```bash
