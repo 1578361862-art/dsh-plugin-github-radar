@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-github-radar",
-  "version": "0.2.0",
+  "version": "0.4.1",
   "description": "GitHub 雷达：在 DSH 里浏览趋势仓库，收藏、标星、一键浅克隆，README 可机翻成中文。",
   "license": "MIT",
   "author": "Yee",
