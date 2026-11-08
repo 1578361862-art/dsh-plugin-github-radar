@@ -1,6 +1,6 @@
 # GitHub 雷达 · dsh-plugin-github-radar
 
-> 在 DSH 里刷 GitHub 趋势：看今天什么在涨，收藏、读 README（一键中文）、标星、把仓库拉下来。
+> 在 DSH 里刷 GitHub 趋势：看今天什么在涨，收藏、读 README（一键中文）、把仓库拉下来。
 
 ![DSH](https://img.shields.io/badge/DSH-%E2%89%A5%200.2.1--rc.5-4f46e5?style=flat-square)
 ![Node](https://img.shields.io/badge/node-%E2%89%A5%2020-339933?style=flat-square&logo=nodedotjs&logoColor=white)
@@ -35,17 +35,16 @@ dsh plugin --profile desktop remove dsh-plugin-github-radar
 ## 能做什么
 
 - **刷榜**：今日 / 本周 / 本月，17 种语言，按仓库名和描述过滤
-- **收藏**：觉得有用先收着，存在本地，不依赖账号
+- **收藏**：觉得有用先收着，存在本地 `collection.json`，不依赖账号、不需要登录
 - **读 README**：点开就在面板里渲染，不用跳页面
 - **一键中文**：正文翻成中文，代码块保持原样
-- **标星**：在面板里直接 star / unstar
 - **克隆**：浅克隆到 `~/Code`，拉下来就能开工
 
 ## 一次典型用法
 
 1. 打开面板，选「今日」和 TypeScript
 2. 点某个仓库看 README，拿不准就切「中文」
-3. 值得留：点收藏；值得试：点克隆；值得追：点 ☆
+3. 值得留：点收藏（本地记账，记下名字、描述、语言、星数、收录时间）；值得试：点克隆
 
 ## README 中文
 
@@ -74,7 +73,7 @@ dsh plugin --profile desktop remove dsh-plugin-github-radar
 
 ## 登录 GitHub
 
-不登录也能刷榜、读 README、克隆公开仓库。登录后多两件事：**克隆私有仓库**、**在面板里标星**，API 额度也从 60 次/小时提到 5000。
+登录只为了**克隆私有仓库**和抬高接口额度（60 → 5000 次/小时）。刷榜、读 README、收藏、克隆公开仓库都不需要登录，收藏本身就是纯本地的。
 
 右上角「登录 GitHub」，两种方式：
 

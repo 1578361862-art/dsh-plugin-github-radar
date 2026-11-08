@@ -5,8 +5,8 @@
     "zh": "GitHub 雷达"
   },
   "description": {
-    "en": "A DSH panel for GitHub trending: favorites, starring, one-click shallow clone, README translation.",
-    "zh": "DSH 面板：GitHub 趋势榜单，收藏、标星、一键浅克隆，README 可机翻成中文。"
+    "en": "A DSH panel for GitHub trending: local favorites, one-click shallow clone, README translation.",
+    "zh": "DSH 面板：GitHub 趋势榜单，本地收藏、一键浅克隆，README 可机翻成中文。"
   },
   "metadata": {
     "categories": {
@@ -26,8 +26,8 @@
         "zh": "GitHub 雷达"
       },
       "description": {
-        "en": "GitHub trending board with favorites, starring, one-click shallow clone and README translation.",
-        "zh": "GitHub 趋势看板，支持收藏、标星、一键浅克隆与 README 机翻。"
+        "en": "GitHub trending board with local favorites, one-click shallow clone and README translation.",
+        "zh": "GitHub 趋势看板，支持本地收藏、一键浅克隆与 README 机翻。"
       },
       "author": "Yee",
       "homepage": "https://github.com/1578361862-art/dsh-plugin-github-radar",
@@ -45,8 +45,8 @@
       },
       "versions": [
         {
-          "version": "0.4.1",
-          "publishTimestamp": 1793894460,
+          "version": "0.5.0",
+          "publishTimestamp": 1794125025,
           "source": {
             "type": "git",
             "url": "https://github.com/1578361862-art/dsh-plugin-github-radar",
