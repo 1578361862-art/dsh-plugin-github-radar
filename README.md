@@ -10,27 +10,27 @@
 
 装好后左栏多一个「GitHub 雷达」入口，点开就是趋势榜。它不是独立网页，是 DSH 自己的面板，亮色 / 暗色主题跟着 DSH 走。
 
-2026-11-06 统一视觉后：日版暖纸 + 红铜，夜版满铺 DSH `bg-base`（`#151517`）+ 珊瑚；刊头改衬线。规范见 `~/Code/dsh-panel-kit/plugin-design-system/`，最新真机截图见 `plugin-design-system/shots/live-radar-*.png`。
-
 ## 安装
 
-```bash
-git clone https://github.com/1578361862-art/dsh-plugin-github-radar.git
-cd dsh-plugin-github-radar
-dsh plugin --profile desktop add file:$PWD
+```sh
+dsh plugin --profile <profile> add https://github.com/1578361862-art/dsh-plugin-github-radar/releases/latest/download/dsh-plugin-github-radar.tgz
 ```
 
-重启 DSH 即可。
+`<profile>` 换成你实际的 profile 名：DSH Desktop 是 `desktop`，`dsh web` 一般是 `web`。装完重启 DSH。
 
-还没发布到 npm。也可以走索引源安装：把仓库里的 `index.json` 放到任意 https 地址，在「插件 → 发现 → 添加索引源」里填 URL。
+也可以从仓库源码装（本插件没有构建步骤）：
+
+```sh
+dsh plugin --profile <profile> add github:1578361862-art/dsh-plugin-github-radar
+```
 
 卸载：
 
-```bash
-dsh plugin --profile desktop remove dsh-plugin-github-radar
+```sh
+dsh plugin --profile <profile> remove dsh-plugin-github-radar
 ```
 
-`file:` 方式安装的，再删掉 `~/.dsh/profiles/desktop/node_modules/dsh-plugin-github-radar` 这个软链。
+收藏和缓存留在 `~/Data/github-radar`，不想要就一起删。
 
 ## 能做什么
 
