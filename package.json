@@ -27,8 +27,7 @@
     "lib/client.js",
     "cordis.patch.yml",
     "README.md",
-    "docs-panel.png",
-    "screenshots.json"
+    "docs-panel.png"
   ],
   "engines": {
     "node": ">=20",
